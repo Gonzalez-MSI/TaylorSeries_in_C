@@ -9,18 +9,18 @@ int main(){
     do{
         printf("Ingrese el valor de x: ");
         scanf("%f",&x); 
-    }while(x<0);
+    }while(x<0.5);
 
     do{
         printf("Ingrese el numero de terminos: ");
         scanf("%d",&number_of_terms);
     }while(number_of_terms<1);
 
-    for(i=0,j=0,power=0,logarithm=0;i<number_of_terms,
+    for(i=0,j=1,power=1,logarithm=0;i<number_of_terms,
     power<number_of_terms;i++,j++,power++){
 
-        logarithm+=(1/(2*j+1))*((pow(((x-1)/(x+1)),((2*power)+1))));
+        logarithm+=(1/j)*((pow(((x-1)/(x)),power)));
         printf("[%i]_%f\n",i+1,logarithm);
     }
-    printf("\n\n%f",2*logarithm);
+    printf("\nln(x)=%f",logarithm);
 }
