@@ -1,5 +1,5 @@
 # Taylor Series in C
-In this repository you'll find code and executables of C programmed Taylor Series for a lot of mathematical functions.
+In this repository you'll find code and executables of C programmed Taylor Series for a lot of mathematical functions and some constants.
 1.  $ln(2)$
 2.  $\frac{\pi}{4}$
 3.  $\frac{\pi^2}{6}$
