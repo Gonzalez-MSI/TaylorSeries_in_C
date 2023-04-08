@@ -11,7 +11,7 @@ Constants
 4.  $\frac{\pi^2}{8}$
 5.  $\frac{1}{2}$
 6.  $\frac{3}{4}$
-
+/
 Exponential and Logarithmic Functions
 7.  $e^x$
 8.  $xe^x$
@@ -20,7 +20,7 @@ Exponential and Logarithmic Functions
 11. $\frac{1}{2}ln(\frac{1+x}{1-x}), -1 < x < 1$
 12. $ln(x), x > 0$
 13. $ln(x), x \geq \frac{1}{2}$
-14. 
+/
 Trigonometric Functions
 19. $sin(x)$
 20. $cos(x)$
