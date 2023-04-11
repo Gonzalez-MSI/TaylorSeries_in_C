@@ -1,58 +1,37 @@
 #include <stdio.h>
-#include <math.h>
-
-double Factorial(int);
-double Combination(int,int);
 
 int main(){
 
-    FILE *fptr; 
-    float x,binomial=0;
-    int alpha,number_of_terms,power,i;
-    
-    fptr=fopen("Newton.txt","w");
+    FILE *fptr;
+    int alpha, number_of_terms, i;
+    double x, newton = 1, factorial = 1;
 
+    fptr=fopen("Newton.txt","w");
+    printf("Ingrese el valor de x: ");  
     do{
-        printf("Ingrese el valor de x: ");
-        scanf("%f",&x); 
+        scanf("%lf",&x);
     }while(x<0 || x>1);
 
+    printf("Ingrese el valor de a: ");
     do{
-        printf("Ingrese el valor de alpha: ");
-        scanf("%i",&alpha); 
-    }while(alpha<0);
+        scanf("%d",&alpha);
+    }while(alpha<0);       
 
+    printf("Ingrese el valor de n: ");
     do{
-        printf("Ingrese el numero de terminos: ");
-        scanf("%i",&number_of_terms);
+        scanf("%d",&number_of_terms);
     }while(number_of_terms<1);
-
-    for(i=0,power=1;i<=number_of_terms,power<=number_of_terms;i++,
-    power++){
-
-        binomial+=((pow(x,power)*Combination(alpha,i)));
-        fprintf(fptr,"Iteration:%i  Binomial:%f     Factorial(alpha):%f    Factorial(i):%f\n",
-        i+1,binomial,Factorial(alpha),Factorial(i));
+    
+    // Este es el binomio de newton (la combinatoria)
+    for(i=1; i<=number_of_terms; i++){
+        
+        factorial=factorial*(alpha-i+1)*(x/i);
+        newton+=factorial;
+        fprintf(fptr,"%d    %f\n",i,newton);
     }
     fclose(fptr);
-    printf("%f",binomial);
+
+    printf("(1+x)^a = %f",newton);
 }
 
-double Factorial(int alpha){
-
-    int j;
-    double factorial=1;
-
-    for(j=1;j<=alpha;j++){
-        
-        factorial*=j;
-    }
-
-    return factorial;
-}
-
-double Combination(int alpha,int i){
-
-    return (Factorial(alpha)/(Factorial(i)*Factorial(alpha-i)));
-}
 

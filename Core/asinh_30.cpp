@@ -19,10 +19,8 @@ int main(){
     for(i=0,j=0,power=0;i<number_of_terms,power<number_of_terms,
     j<=number_of_terms;i++,power++,j++){
 
-        i%2?asinh_x-=((Factorial(2*j))*(pow(((x*pi/180)),(2*power+1)))/
-        (pow(4,power)*(pow(Factorial(j),2))*(2*j+1))):
-        asinh_x+=((Factorial(2*j))*(pow(((x*pi/180)),(2*power+1)))/(pow(4,power)*
-        (pow(Factorial(j),2))*(2*j+1)));
+        i%2?asinh_x+=((Factorial(j))*(pow(x,2*power+1))/((pow(4,power))*
+        (pow(Factorial(j),2)*(2*j+1)))):0;
 
         fprintf(fptr,"%d,       asinh(x)=%f\n",i,asinh_x);
     }
