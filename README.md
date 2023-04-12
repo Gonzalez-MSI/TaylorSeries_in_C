@@ -18,6 +18,9 @@ Constants/
 11. $\frac{1}{2}ln(\frac{1+x}{1-x}), -1 < x < 1$
 12. $ln(x), x > 0$
 13. $ln(x), x \geq \frac{1}{2}$
+14. $(1+x)^\alpha$
+15. $a^x$
+16. $B_k$
 19. $sin(x)$
 20. $cos(x)$
 27. $sinh(x)$
