@@ -21,10 +21,10 @@ Constants/
 14. $(1+x)^\alpha$
 15. $a^x$
 16. $B_k = -\sum_{i=0}^{k-1} \binom{k}{i} \left\lbrace1-\frac{1}{3^{2k+1}}+\frac{1}{5^{2k+1}}\right\rbrace$
-19. $sin(x)$
-20. $cos(x)$
-27. $sinh(x)$
-28. $cosh(x)$
+19. $\sin(x)$
+20. $\cos(x)$
+27. $\sinh(x)$
+28. $\cosh(x)$
 31. $arctan(x)$
 
 
