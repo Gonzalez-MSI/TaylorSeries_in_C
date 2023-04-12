@@ -20,7 +20,7 @@ Constants/
 13. $ln(x), x \geq \frac{1}{2}$
 14. $(1+x)^\alpha$
 15. $a^x$
-16. $B_k = -\sum_{i=0}^{k-1}\binom{k}{i}$
+16. $B_k = -\[\sum_{i=0}^{k-1}\binom{k}{i}\]$
 19. $sin(x)$
 20. $cos(x)$
 27. $sinh(x)$
