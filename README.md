@@ -25,6 +25,6 @@ Constants/
 20. $\cos(x)$
 27. $\sinh(x)$
 28. $\cosh(x)$
-31. $arctan(x)$
+31. $\arctan(x)$
 
 
