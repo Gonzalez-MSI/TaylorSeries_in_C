@@ -19,6 +19,9 @@ int main(){
     do{
     scanf("%lf",&k);
     }while(k<0);
+
+    int sentinel = (int)k;
+    
     printf("Ingrese el numero de terminos: ");
     do{
         scanf("%d",&number_of_terms);
@@ -29,10 +32,10 @@ int main(){
         bernoulli+=(((Factorial(k))/(pow(pi,2*k)*pow(2,2*k-1)))
         *((1/(pow(j,2*k)))));
 
-        fprintf(fptr,"B%lfs = %lf",k);
+        fprintf(fptr,"%lf,",sentinel%2?bernoulli:-bernoulli);
     }
 
-    printf("E%lf = %lf",k,bernoulli);
+    printf("E%lf = %lf",k,sentinel%2?bernoulli:-bernoulli);
 
 }
  

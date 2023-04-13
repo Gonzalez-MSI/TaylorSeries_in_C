@@ -7,32 +7,35 @@ double Factorial(int);
 int main(){
 
     FILE *fptr;
-    double bernoulli,k,j;
+    double euler,k,j;
     int number_of_terms, i;
 
-    bernoulli = 0;
+    euler = 0;
     k = 0;
     
-    fptr=fopen("BernoulliNumber.txt","w");
+    fptr=fopen("EulerNumber.txt","w");
     
     printf("Ingrese el valor de k: ");
     do{
     scanf("%lf",&k);
     }while(k<0);
+
+    k = 2*k;
+    
     printf("Ingrese el numero de terminos: ");
     do{
         scanf("%d",&number_of_terms);
     }while(number_of_terms<1);
     
-    for(i=0,j=1;i<number_of_terms,j<number_of_terms;i++,j++){
+    for(i=0,j=0;i<number_of_terms,j<number_of_terms;i++,j++){
 
-        bernoulli+=(((Factorial(k))/(pow(pi,2*k)*pow(2,2*k-1)))
-        *((1/(pow(j,2*k)))));
+        euler+=(((pow(2,2*k+2)*Factorial(k))/(pow(pi,2*k+1)))
+        *(i%2?(-1/(pow(2*j+1,2*k+1))):(1/(pow(2*j+1,2*k+1)))));
 
-        fprintf(fptr,"B%lfs = %lf",k);
+        fprintf(fptr,"E%lfs = %lf",k,euler);
     }
 
-    printf("E%lf = %lf",k,bernoulli);
+    printf("E%lf = %lf",k,euler);
 
 }
  

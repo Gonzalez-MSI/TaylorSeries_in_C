@@ -13,12 +13,14 @@ int main(){
     bernoulli = 0;
     k = 0;
     
-    fptr=fopen("BernoulliNumber.txt","w");
+    fptr=fopen("Dracukeo.txt","w");
     
     printf("Ingrese el valor de k: ");
     do{
     scanf("%lf",&k);
     }while(k<0);
+    int sentinel = (int)k;
+    
     printf("Ingrese el numero de terminos: ");
     do{
         scanf("%d",&number_of_terms);
@@ -32,7 +34,7 @@ int main(){
         fprintf(fptr,"B%lfs = %lf",k);
     }
 
-    printf("E%lf = %lf",k,bernoulli);
+    printf("%lf",sentinel%2?bernoulli:-bernoulli);
 
 }
  
