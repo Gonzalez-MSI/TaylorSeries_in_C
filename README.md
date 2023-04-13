@@ -25,8 +25,12 @@ Constants/
 18. $E_{2k} = i\sum_{m=1}^{2k+1} \sum_{j=0}^{m} \binom{m}{j} \frac{(-1)^j (m-2j)^{2k+1}}{2^m i^m m}$
 19. $\sin(x)$
 20. $\cos(x)$
+21. $\tan(x)$
+22. $\sec(x)$
+23. $\csc(x)$
 27. $\sinh(x)$
 28. $\cosh(x)$
 31. $\arctan(x)$
+32. $\frac{1+x}{1+x}$
 
 
