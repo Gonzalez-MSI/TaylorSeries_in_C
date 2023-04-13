@@ -20,7 +20,8 @@ Constants/
 13. $ln(x), x \geq \frac{1}{2}$
 14. $(1+x)^\alpha$
 15. $a^x$
-16. $B_k = -\sum_{i=0}^{k-1} \binom{k}{i} \left\lbrace1-\frac{1}{3^{2k+1}}+\frac{1}{5^{2k+1}}\right\rbrace$
+16. $B_k = -\sum_{i=0}^{k-1} \binom{k}{i} \frac{B_i}{k+1-i}$
+17. $E_k = \frac{2^{2k+2}}{\pi^{2k+1}}\left\lbrace1-\frac{1}{3^{2k+1}}+\frac{1}{5^{2k+1}}\right\rbrace$
 19. $\sin(x)$
 20. $\cos(x)$
 27. $\sinh(x)$
