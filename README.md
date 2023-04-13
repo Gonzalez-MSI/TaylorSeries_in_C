@@ -22,6 +22,7 @@ Constants/
 15. $a^x$
 16. $B_k = -\sum_{i=0}^{k-1} \binom{k}{i} \frac{B_i}{k+1-i}$
 17. $E_k = \frac{2^{2k+2}}{\pi^{2k+1}}\left\lbrace1-\frac{1}{3^{2k+1}}+\frac{1}{5^{2k+1}}\right\rbrace$
+18. $E_{2k} = i\sum_{m=1}^{2k+1} sum_{j=0}^{m} \binom{m}{j} \frac{(-1)^j (m-2j)^{2k+1}}{2^m i^m m}$
 19. $\sin(x)$
 20. $\cos(x)$
 27. $\sinh(x)$
