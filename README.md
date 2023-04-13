@@ -30,6 +30,7 @@ Constants/
 23. $\csc(x)$
 27. $\sinh(x)$
 28. $\cosh(x)$
+29. $\tanh(x)$
 31. $\arctan(x)$
 32. $\frac{ln(1+x)}{1+x}$
 
