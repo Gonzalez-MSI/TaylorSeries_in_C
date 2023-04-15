@@ -30,7 +30,9 @@ In this repository you'll find code and executables of C programmed Taylor Serie
 27. $\sinh(x)$
 28. $\cosh(x)$
 29. $\tanh(x)$
+30. $\asinh(x)$
 31. $\arctan(x)$
 32. $\frac{ln(1+x)}{1+x}$
+33. $e{\sin(x)}$
 
 
