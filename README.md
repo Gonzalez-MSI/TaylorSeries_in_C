@@ -34,5 +34,3 @@ In this repository you'll find code and executables of C programmed Taylor Serie
 31. $\tanh^{-1}(x)$
 32. $\frac{ln(1+x)}{1+x}$
 33. $e^{\sin(x)}$
-
-
