@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define UPPER_LIMIT 100000
+
 
 int main(){
 
@@ -9,7 +9,7 @@ int main(){
     do{
         printf("Ingrese el numero de terminos: ");
         scanf("%i",&nth_terms);
-    }while(nth_terms<0 || nth_terms>UPPER_LIMIT);
+    }while(nth_terms<1);
 
     for(i=0,j=0;i<nth_terms;i++,j++){
 

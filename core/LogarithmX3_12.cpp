@@ -3,16 +3,20 @@
 
 int main(){
 
+    FILE *fptr;
     float x,logarithm,j;
     int i,number_of_terms,power;
 
+    fptr=fopen("LogarithmX3_12.txt","w");
+    printf("Ingrese el valor de x: ");
     do{
-        printf("Ingrese el valor de x: ");
+        
         scanf("%f",&x); 
     }while(x<0);
 
+    printf("Ingrese el numero de terminos: ");
     do{
-        printf("Ingrese el numero de terminos: ");
+        
         scanf("%d",&number_of_terms);
     }while(number_of_terms<1);
 
@@ -20,7 +24,8 @@ int main(){
     power<number_of_terms;i++,j++,power++){
 
         logarithm+=(1/(2*j+1))*((pow(((x-1)/(x+1)),((2*power)+1))));
-        printf("[%i]_%f\n",i+1,logarithm);
+        fprintf(fptr,"%d    %.4f\n",i,2*logarithm);
     }
+    fclose(fptr);
     printf("\n\n%f",2*logarithm);
 }

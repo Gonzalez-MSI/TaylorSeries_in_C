@@ -3,9 +3,11 @@
 
 int main(){
 
-    float x,logarithm;
-    int i,j,number_of_terms,power;
+    FILE *fptr;
+    float x,logarithm,j,power;
+    int i,number_of_terms;
 
+    fptr=fopen("LogarithmX2_11.txt","w");
     do{
         printf("Ingrese el valor de x: ");
         scanf("%f",&x);
@@ -20,7 +22,8 @@ int main(){
     power<number_of_terms;i++,j++,power++){
 
         logarithm+=((pow(x,power))/(2*j+1));
-        printf("[%i]_%f\n",i+1,logarithm);
+        fprintf(fptr,"%i    %.4f\n",i,logarithm);
     }
+    fclose(fptr);
     printf("%f",logarithm);
 }
