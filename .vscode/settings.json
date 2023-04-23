@@ -47,7 +47,8 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "stdio.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "Q7.C": "cpp"
     },
     "dimmer.enabled": false
 }
