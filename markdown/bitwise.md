@@ -40,6 +40,29 @@
 | 1 | 0  |
 | 1 | 0  |
 
+#### Bitwise **XOR (^**) operator
+
+* It takes two bits at a time and performs **XOR** operation
+* **XOR (^)** is a binary operator
+* Result of **XOR (^)** is 1 when both bits are different
+
+| A | B | A^B |
+|---|---|-----|
+| 0 | 0 | 0   |
+| 0 | 1 | 1   |
+| 1 | 0 | 1   |
+| 1 | 1 | 0   |
+
+###### |Example
+* A: 0000 1000 == 8
+* B: 0000 0010 == 2
+* **Operation A^BE**
+
+|     A     |     B     |    A^B    |
+|:---------:|:---------:|:---------:|
+|     8     |     2     |    10     |
+| 0000 1000 | 0000 0010 | 0000 1010 |
+
 #### Bitwise **LEFT SHIFT (<<)** operator
 
 * It takes two operands at a time to perform **LEFT SHIFT (<<)** operation
