@@ -1,18 +1,16 @@
 package main
 
 import (
-	"time"
-
-	"github.com/pterm/pterm"
+	"fmt"
 )
 
 func main() {
-	area, _ := pterm.DefaultArea.WithCenter().Start()
 
-	for i := 0; i < 5; i++ {
-		area.Update(pterm.Sprintf("Current count: %d\nAreas can update their content dynamically!", i))
-		time.Sleep(time.Second)
-	}
+	x := 0
 
-	area.Stop()
+	fmt.Printf("Number: ")
+
+	fmt.Scanf("%d", &x)
+
+	fmt.Printf("%d", x)
 }
