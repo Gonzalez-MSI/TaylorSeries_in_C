@@ -45,7 +45,7 @@ int main(){
     printf("{encoded msg} = %s {parities} = %d\n",message_parities,parities);
 
 //! //////////////////////////////////////////////////////////////////////// !
-//! No entendido
+                          //! No entendido !//
 
   printf("%s\nParidad = %d\n", message_parities, parities);
   for(i=0; i<parities; i++){
@@ -65,7 +65,8 @@ int main(){
     message_parities[k-1] = parities_finder;
   }  
   printf("%s\nParidad = %d\n", message_parities, parities);
-
+  
+                          //! No entendido !//
 //! //////////////////////////////////////////////////////////////////////// !
     return 0;
 }

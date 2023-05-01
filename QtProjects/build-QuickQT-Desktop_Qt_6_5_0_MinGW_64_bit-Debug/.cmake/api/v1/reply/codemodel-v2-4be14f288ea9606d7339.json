@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2f7c9c89bd6b2f7e4bd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QuickQT",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2fd9ae4ab549b4e01325.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-0c41d5f47f839eaf4f63.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-f23675fe86912d624d69.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-53fb181e2c4a4dc08dcf.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT-Debug-47158b8c6ecee653e8ff.json",
+					"name" : "appQuickQT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_autogen-Debug-efe2d3dfd4eaffd4be2b.json",
+					"name" : "appQuickQT_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_autogen_timestamp_deps-Debug-9f269ed5fc08dc1d55a7.json",
+					"name" : "appQuickQT_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_qmlimportscan-Debug-2ae6f995821170e79bf7.json",
+					"name" : "appQuickQT_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_qmllint-Debug-b7d0b01099504b82fc4e.json",
+					"name" : "appQuickQT_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_qmllint_json-Debug-cc64968de0d7fd6960c7.json",
+					"name" : "appQuickQT_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_qmllint_module-Debug-8cf0dd8a299c75aff87f.json",
+					"name" : "appQuickQT_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_qmltyperegistration-Debug-68058b771195d2fdfd1b.json",
+					"name" : "appQuickQT_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQuickQT_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQuickQT_tooling-Debug-c76577110e39d1aaa902.json",
+					"name" : "appQuickQT_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/glzdi/Downloads/CodeProjects/QtProjects/build-QuickQT-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/glzdi/Downloads/CodeProjects/QtProjects/QuickQT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
