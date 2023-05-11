@@ -13,7 +13,7 @@ style: |
 # Heaviside's Cover-Up Method
 
 
-> $$ \texttt{Made With Markdown and } \LaTeX$$
+> $$ \texttt{Slides Made With Markdown and } \LaTeX$$
 
 ![OliverHeaviside, drop-shadow, bg right](../images/OliverHeaviside.jpg)
 
@@ -106,6 +106,7 @@ $$
 \boxed{x = -\frac{9}{2} }
 
 $$
+
 
 ---
 

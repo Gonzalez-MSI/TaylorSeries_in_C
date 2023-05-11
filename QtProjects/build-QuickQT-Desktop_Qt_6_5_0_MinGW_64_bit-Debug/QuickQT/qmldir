@@ -1,5 +1,0 @@
-module QuickQT
-typeinfo appQuickQT.qmltypes
-prefer :/QuickQT/
-Main 1.0 Main.qml
-
